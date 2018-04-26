@@ -1,0 +1,68 @@
+/*MATHE STATIC LIBRARY API*\
+////////////////////////////
+////////////////////////////
+Class Number:
+Number(bool randomNumber);
+This constructor creates a number with the value 0 if randomNumber is false.
+This constructor creates a number with a random value between -1 and 100 if randomNumber is true (the value won't be -1 or 100 just 0-99)
+----------------------------
+Number(double value);
+This is the basic contructor to create a number
+----------------------------
+void setValue(double value);
+Sets the value of a number
+----------------------------
+void changeValue(double value);
+Changes the value of a number
+----------------------------
+void doSquare();
+Sets the value to the square of it's old value
+----------------------------
+void doRoot();
+Sets the value to the root of it's old value
+----------------------------
+void doInvert();
+Sets the value to the value that was created by reading the old value backwards (only works with 2 digits)
+----------------------------
+double getValue();
+Returns the value
+----------------------------
+double getSquare();
+Returns the square of the value
+----------------------------
+double getRoot();
+Returns the root of the value
+----------------------------
+int getInvert();
+Returns the value to the value that was created by reading the old value backwards (only works with 2 digits)
+////////////////////////////
+////////////////////////////
+Class Circle:
+Circle(double value, std::string mode);
+This constructor creates a circle with the radius value, if mode is set to "R"
+This constructor creates a circle with the diameter value, if mode is set to "D"
+This constructor creates a circle with the circumference value, if mode is set to "C"
+----------------------------
+void setRadius(double value);
+Sets the radius to the value
+----------------------------
+void setCircumference(double value);
+Sets the circumference to the value
+----------------------------
+void setDiameter(double value);
+Sets the diameter to the value
+----------------------------
+double getRadius();
+Returns the radius
+----------------------------
+double getCircumference();
+Returns the circumference
+----------------------------
+double getDiameter();
+Returns the diameter
+////////////////////////////
+////////////////////////////
+Class squareFc:
+!!COMMING SOON!!
+!!COMMING SOON!!
+
